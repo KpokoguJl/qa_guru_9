@@ -22,8 +22,8 @@ public class PracticeFormTest extends TestBase {
                 year = "2000",
                 subject = "English",
                 hobbies = "Sports",
-                state = "Haryana",
-                city = "Panipat";
+                state = "NCR",
+                city = "Delhi";
 
         AutomationPracticeFormPage page = new AutomationPracticeFormPage();
 
