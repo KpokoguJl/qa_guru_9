@@ -36,7 +36,7 @@ public class PracticeFormTest extends TestBase {
                 .setDateOfBirth(day, month, year)
                 .setSubject(subject)
                 .chooseHobbies(hobbies)
-                .uploadFile()
+//                .uploadFile()
                 .typeAddress(address)
                 .selectState(state)
                 .selectCity(city)
