@@ -8,7 +8,7 @@ import site.kpokogujl.pages.AutomationPracticeFormPage;
 
 public class PracticeFormTest extends TestBase {
     @Test
-    void firstTest(){
+    void practiceFormTest(){
         Faker faker = new Faker();
 
         String firstName = faker.name().firstName(),
@@ -49,7 +49,7 @@ public class PracticeFormTest extends TestBase {
                 .checkResults("Date of Birth", day + " " + month + "," + year)
                 .checkResults("Subjects", subject)
                 .checkResults("Hobbies", hobbies)
-                .checkResults("Picture", "file.txt")
+//                .checkResults("Picture", "file.txt")
                 .checkResults("Address", address)
                 .checkResults("State and City", state + " " + city);
 
